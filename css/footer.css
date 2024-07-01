@@ -1,0 +1,101 @@
+footer {
+  background-color: #F2F2F2;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  height: 300px;
+}
+.footer-conrainer {
+  padding: 10px;
+}
+.footer-conrainer .headline {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 20px 0px;
+  color: black;
+}
+.footer-conrainer p {
+  font-size: 15px;
+  color: rgb(70, 70, 70);
+  padding: 5px 0px;
+  cursor: pointer;
+}
+.footer-conrainer p:hover {
+  color: black;
+}
+.footer-conrainer .company-name {
+  margin-bottom: 15px;
+}
+.footer-conrainer .lern-more {
+  text-decoration: underline;
+}
+.footer-conrainer .lern-more:hover {
+  color: blue;
+}
+.footer-conrainer .email-input {
+  height: 40px;
+  margin-top: 20px;
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.222);
+  border-radius: 2px;
+}
+.email-input::placeholder {
+  font-size: 13px;
+  padding-left: 6px;
+}
+.email-box {
+  position: relative;
+}
+.fa-solid {
+  position: absolute;
+  top: 33px;
+  left: 175px;
+  cursor: pointer;
+}
+.sign-up-now {
+  text-decoration: underline;
+  transition: color 0.15s;
+}
+.footer-conrainer .sign-up-now:hover {
+  color: blue;
+}
+.social-link {
+  display: flex;
+  margin-top: 15px;
+}
+.social-link i {
+  border: 1px solid gray;
+  font-size: 20px;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: .2s;
+  color: black;
+}
+.social-link i:hover {
+  transform: scale(1.1);
+  background-color: white;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
+}
+.fa-smile {
+  color: black;
+}
+
+
+.shuvo-sarkar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: black;
+  height: 30px;
+  font-size: 14px;
+}
+.name {
+  display: inline-block;
+  color: white;
+  
+}
+.date {
+  display: inline-block;
+  color: #9f9f9f;
+}

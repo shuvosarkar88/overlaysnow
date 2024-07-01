@@ -1,0 +1,49 @@
+.product-show-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.product-show-container .big-img{
+  margin-right: 10px;
+}
+.product-show-container img {
+  width: 46vw;
+  border-radius: 10px;
+  transition: .2s;
+  cursor: pointer;
+}
+.product-show-container img:hover {
+  transform: scale(1.02);
+  box-shadow: 2px 4.3px 5px hsl(0deg 0% 0% / 0.43);
+}
+.container-second img{
+  display: block;
+}
+.container-second .img-2 {
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+.big-img {
+  position: relative;
+  padding: 2.5px 0px;
+
+}
+.new-arrival-tag {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+.relative-container {
+  position: relative;
+}
+.polo-shirt, .full-sleeve{
+  position: absolute;
+  bottom: 6px;
+  left: 10px;
+  font-weight: bold;
+  color: white;
+}

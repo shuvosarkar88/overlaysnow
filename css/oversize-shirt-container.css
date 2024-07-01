@@ -1,0 +1,6 @@
+.oversize-shirt-container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow:scroll;
+}

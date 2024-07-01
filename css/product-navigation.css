@@ -1,0 +1,25 @@
+.product-navigation {
+  font-family: arial;
+  gap: 10px 5px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-rows:auto auto;
+  align-content: center;
+  justify-content: space-around;
+}
+.product-navigation img {
+  width: 6rem;
+  border-radius: 50px;
+  padding: 2px;
+  border: 2px solid rgb(243, 229, 182);
+  cursor: pointer;
+}
+.product-navigation .long-photo {
+  height: 96px;
+  object-fit: cover;
+}
+.product-navigation p {
+  padding-left: 18px;
+  cursor: pointer;
+}
